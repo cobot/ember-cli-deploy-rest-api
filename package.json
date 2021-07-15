@@ -6,6 +6,10 @@
     "node": ">= 0.10.0"
   },
   "author": "Alexander Lang",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": "git://github.com/cobot/ember-cli-deploy-rest-api.git",
   "license": "MIT",
   "devDependencies": {
     "ember-cli": "0.1.5"
