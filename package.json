@@ -1,5 +1,5 @@
 {
-  "name": "@upstream/ember-cli-deploy-rest-api",
+  "name": "@cobot/ember-cli-deploy-rest-api",
   "version": "1.0.0",
   "description": "ember-cli-deploy plugin to push index.html to a rest api and activate it",
   "engines": {
