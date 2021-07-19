@@ -1,6 +1,6 @@
 {
   "name": "@upstream/ember-cli-deploy-rest-api",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ember-cli-deploy plugin to push index.html to a rest api and activate it",
   "engines": {
     "node": ">= 0.10.0"
