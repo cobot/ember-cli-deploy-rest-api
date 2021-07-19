@@ -1,5 +1,5 @@
 {
-  "name": "@cobot/ember-cli-deploy-rest-api",
+  "name": "@upstream/ember-cli-deploy-rest-api",
   "version": "1.0.0",
   "description": "ember-cli-deploy plugin to push index.html to a rest api and activate it",
   "engines": {
@@ -9,7 +9,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "repository": "git://github.com/cobot/ember-cli-deploy-rest-api.git",
+  "repository": "git://github.com/upstream/ember-cli-deploy-rest-api.git",
   "license": "MIT",
   "devDependencies": {
     "ember-cli": "0.1.5"

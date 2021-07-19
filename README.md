@@ -1,6 +1,7 @@
 # Ember-deploy-rest-api
 
-This is an ember-cli-deploy plugin to deploy your Ember assets to a JSON REST API.
+This is an ember-cli-deploy plugin to deploy our Ember apps using the (private)
+Cobot assets API.
 
 # Configuration
 
