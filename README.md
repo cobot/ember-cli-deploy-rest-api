@@ -3,6 +3,21 @@
 This is an ember-cli-deploy plugin to deploy our Ember apps using the (private)
 Cobot assets API.
 
+# Application Deployment Config
+
+The repo also contains a configuration to be used within our Ember apps (deploy-config.js) like this:
+
+```
+/* eslint-disable @typescript-eslint/no-var-requires */
+/* eslint-env node */
+const deployConfig = require('@upstream/ember-cli-deploy-rest-api/lib/deploy-config');
+
+module.exports = function (deployTarget) {
+  return deployConfig(deployTarget, '<cobot assets key>', '<S3 prefix>');
+};
+
+```
+
 # Configuration
 
 In your _deploy.js_ add the following:
