@@ -23,5 +23,9 @@
     "ember-cli-deploy-plugin": "^0.2.0",
     "request": "^2.55.0",
     "rsvp": "^3.1.0"
+  },
+  "peerDependencies": {
+    "ember-cli-deploy-s3": "^3.0.0",
+    "ember-cli-deploy-s3-index": "^1.2.0"
   }
 }
